@@ -54,7 +54,7 @@ I was able to reduce the time 82s avg on my machine for the baseline implementat
 
 This repository contains two programs:
 * `src/GenerateMeasurements.java` : Creates the file _measurements.txt_ with a configurable number of random measurement values
-* `src/CalculateAverageBaseline.java` (invoked via _calculate\_average\_baseline.sh_): Calculates the average values for the file _measurements.txt_
+* `src/CalculateAverageBaseline.java` : Calculates the average values for the file _measurements.txt_
 
 1. Create the measurements file with 1B rows (just once):
     run the program `GenerateMeasurements.java` natively or using JBang.
