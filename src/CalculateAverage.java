@@ -104,6 +104,7 @@ private static List<Segment> getSegments(FileChannel channel) throws IOException
   while (position < fileSize) {
     long chunkSize = Math.min(CHUNK_SIZE, fileSize - position);
     channel.position(position + chunkSize);
+    //for making sure segment does not end in the middle of a line
     lineBuffer.clear();
     int read = channel.read(lineBuffer);
     if (read > 0) {
