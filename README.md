@@ -42,7 +42,7 @@ I was able to reduce the time 82s avg on my machine for the baseline implementat
   - Use the city bytes for creating the hash for the hash map
   - Parse the temperature as int and later divide the aggregate accordingly since default implementation of parsing double is heavy and operations on Integer in CPU is faster
   - Aggregate the results per segment
-  - Merge per segment results into final `TreeMap` sorted by city measurement
+  - Merge per segment results into final `TreeMap` sorted by city name
   ### Further Possible Improvements
   - Implement custom hash map with smaller size instead of default `HashMap`
 
