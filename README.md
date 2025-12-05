@@ -68,5 +68,5 @@ This repository contains two programs:
 2. Calculate the average measurement values:
     Calculate the average measurement using `CalculateAverageBaseline.java` with the generated `measurements.txt` file.
     The provided naive example implementation uses the Java streams API for processing the file.
-3. Optimize
-    Create your own copy `CalculateAverageBaseline.java` and optimize it
+3. Optimize:
+    Create your own copy of `CalculateAverageBaseline.java` and optimize it
